@@ -1,0 +1,64 @@
+.form-add-route {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form-add-route h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-add-route label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-add-route input[type="text"],
+  .form-add-route input[type="number"] {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-add-route input[type="text"]:focus,
+  .form-add-route input[type="number"]:focus {
+    outline: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-add-route button[type="button"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .form-add-route button[type="button"]:hover {
+    background-color: #0062cc;
+  }
+  
+  .form-add-route button[type="button"]:focus {
+    outline: none;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+  
+  .form-label {
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-control {
+    width: 100%;
+  }
+  
